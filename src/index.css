@@ -3,10 +3,15 @@
   --color-maps:#25262A;
   --color-main:#101213;
   --color-supMaps:#383C41;
+  --color-secondry-text:#B6B6B8;
   --color-red:#FE0000;
   --color-red-button:#FF3B3080;
   --color-main-green:#34C759;
+  --color-button-green:#55A93840;
+  --color-green-text:#55A938;
   --color-stroke:#303236;
+  --color-progress:#78788029;
+  --color-target:#999999;
   --color-main-text:#F8F8F8;
   --font-display:"Playfair Display", serif;
   --font-inter:"Inter", serif;

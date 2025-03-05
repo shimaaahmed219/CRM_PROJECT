@@ -2,6 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route, u
 import { useEffect } from "react";
 import Layout from "./components/Layouts";
 import Home from "./pages/Home";
+import PageThree from "./pages/PageThree";
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Route element={<Layout />}>
         <Route element={<ScrollToTop/>} />
       <Route path="/" element={<Home/>}/>
+      <Route path="/three" element={<PageThree/>}/>
       </Route>
     )
   );

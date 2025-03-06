@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Layout from "./components/Layouts";
 import Home from "./pages/Home";
 import PageThree from "./pages/PageThree";
+import PageTwo from "./pages/PageTwo";
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <Route element={<Layout />}>
         <Route element={<ScrollToTop/>} />
       <Route path="/" element={<Home/>}/>
+      <Route path="/two" element={<PageTwo/>}/>
       <Route path="/three" element={<PageThree/>}/>
       </Route>
     )
